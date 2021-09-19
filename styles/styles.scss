@@ -1,0 +1,22 @@
+@import './cssreset';
+@import './font';
+$backgroundColor: #2ecc71;
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+.app {
+}
+
+header{
+  display: flex;
+  background: url(../assets/wave.png) no-repeat;
+  background-size: cover;
+  height: 190px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+.container{
+  padding: 0 112px;
+}

@@ -1,0 +1,18 @@
+.starRating{
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+.on {
+    color: red;
+}
+.off {
+    color: #ccc;
+}
+}
+.chart {
+  width: 250px;
+  height: 250px;
+}

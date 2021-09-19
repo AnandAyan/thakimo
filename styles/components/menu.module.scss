@@ -1,0 +1,14 @@
+$color: red;
+
+.navbarNav {
+  display: flex;
+  width: 45%;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  li {
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

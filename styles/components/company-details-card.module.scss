@@ -1,0 +1,12 @@
+.chart {
+  width: 500px;
+  height: 375px;
+}
+.companyDescription {
+display: flex;
+}
+.companyReview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
