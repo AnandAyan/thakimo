@@ -1,20 +1,64 @@
 @import './cssreset';
 @import './font';
+@import './custom_tabs';
+
 $backgroundColor: #2ecc71;
 body {
   font-family: 'Montserrat', sans-serif;
 
 } 
+h2 {
+  font-weight: bold;
+font-size: 22px;
+line-height: 27px;
 
+color: #44546A;
+}
+.text-center {
+  text-align: center;
+}
+.font-bold {
+      font-weight: bold;
+    }
+.font-small {
+  font-size: 8px !important;
+}    
 header{
   display: flex;
   background: url(../assets/wave.png) no-repeat;
   background-size: cover;
   height: 190px;
   justify-content: space-between;
-  position: fixed;
+   position: absolute;
   width: 100%;
+  .navbar-brand {
+    padding: 15px;
+  }
 }
 .container{
-  padding: 0 112px;
+  // padding: 0 112px;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+@mixin cardStyle {
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardStyle {
+  @include cardStyle;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #44546A;
+  border-bottom: 5px solid #44546A;
+
+  h3{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 10px;
+  }
 }

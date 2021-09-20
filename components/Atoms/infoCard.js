@@ -4,10 +4,10 @@ import Image from 'next/image'
 import logo from '../../assets/diverity.png'
 
 export default function InfoCard ({icon={logo},info={label:'Review',number:1,misc:''}}) {
-    debugger;
+  // debugger;
     return (
       <div className={styles.infoCard}>
-           <div className={styles.icon}><Image src={icon.logo} alt="Tokhimo" /></div>
+           <div className={styles.icon}><Image src={icon} alt="Tokhimo" /></div>
           <div className={styles.details}>
             <p className={styles.infoLabel}> {info.label}</p>
             <p className={styles.stats}> {info.number}</p>

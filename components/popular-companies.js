@@ -34,16 +34,16 @@ export default function PopularCompanies({user}) {
         </TabList>
 
         <TabPanel>
-        <Carousel responsive={responsive}>
-          <div><CompanyCard/></div>
-          <div><CompanyCard/></div>
-          <div><CompanyCard/></div>
-          <div><CompanyCard/></div>
-          <div><CompanyCard/></div>
-          <div><CompanyCard/></div>
-          <div><CompanyCard/></div>
-          <div><CompanyCard/></div>
-        </Carousel>
+          <Carousel responsive={responsive}>
+            <div><CompanyCard allowClick ='true'/></div>
+            <div><CompanyCard/></div>
+            <div><CompanyCard/></div>
+            <div><CompanyCard/></div>
+            <div><CompanyCard/></div>
+            <div><CompanyCard/></div>
+            <div><CompanyCard/></div>
+            <div><CompanyCard/></div>
+          </Carousel>
           
         </TabPanel>
         <TabPanel>

@@ -1,0 +1,46 @@
+.companyDetails {
+    .react-tabs {
+        &__tab-list {
+         display: flex;
+
+        }
+        &__tab {
+            flex-grow: 1;
+            flex-basis: 0;
+            text-align: center;
+            background: #44546A;
+            font-weight: bold;
+            font-size: 18px;
+            border:none;
+            border-right:  1px solid;
+            height: 40px;
+            line-height: 40px;
+            color: #FFFFFF;
+                &--selected {
+                    color: #FEF2CD;
+                    border-radius: 0;
+                    border-bottom: 5px solid #FEF2CD;
+                    background: linear-gradient(110deg, rgba(255, 255, 255, .1),#44546A) ;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                }
+        }
+    }
+}
+
+.container {
+    &.home{
+        .react-tabs__tab {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-size: 30px;
+            line-height: 37px;
+            color: #44546A;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border:none
+        }
+        .react-tabs__tab--selected{
+            font-weight: bold;
+            border-bottom: 5px solid;
+        }
+    }
+}

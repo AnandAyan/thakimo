@@ -8,7 +8,7 @@ export default function FeaturedCompanies({user}) {
     <div >
       <Tabs>
         <TabList>
-          <Tab>Popular Companies</Tab>
+          <Tab>Featured Companies</Tab>
         </TabList>
 
         <TabPanel>

@@ -21,7 +21,7 @@ export default function StarRating () {
             </button>
           );
         })}
-         <b>{rating}</b> 
+         <span className={styles.ratingCount}>{rating ? rating : ''}</span> 
       </div>
     );
   };

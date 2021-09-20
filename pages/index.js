@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div className="app sd">
        <Hero user={user}/>
-        <div className='container'>
-       <PopularCompanies/>
-       <FeaturedCompanies/>
+        <div className='container home'>
+          <PopularCompanies/>
+          <FeaturedCompanies/>
       </div>
     </div>
   )

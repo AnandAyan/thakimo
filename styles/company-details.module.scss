@@ -1,0 +1,22 @@
+.companyDetails {
+    padding-top:210px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.companyDetailCard {
+    min-height: 600px;
+
+}
+.detailReview {
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.detailReviewList {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+ .companyInfo {
+    flex-grow: 1;
+    flex-basis: 0;
+}

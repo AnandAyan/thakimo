@@ -6,13 +6,19 @@
   padding: 15px;
   align-items: center;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+justify-content: space-around;
+margin-bottom: 15px;
+border-bottom: 5px solid #44546A;
  .icon{
    width: 70px ;
    height: 70px;
 
  }
  .details{
-   width: inherit;
-   background:khaki;
+  //  width: inherit;
+  text-align: center;
+  > * {
+    margin-bottom: 10px;
+  }
  }
 }

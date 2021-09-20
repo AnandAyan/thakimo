@@ -10,6 +10,9 @@ $color: red;
  align-items: center;
  justify-content: center;
  color: #fff;
+//  position: relative;
+//     top: -180px;
+//   z-index: -1;
  & > *{
    margin-bottom: 15px;
  }

@@ -6,10 +6,18 @@ button {
     cursor: pointer;
   }
 .on {
-    color: red;
+    color: #FDBF2D;
+    font-size: 25px;
 }
 .off {
     color: #ccc;
+    font-size: 25px;
+
+}
+.ratingCount {
+  font-weight: bold;
+  margin: 10px;
+  font-size: 20px;
 }
 }
 .chart {
