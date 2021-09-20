@@ -1,6 +1,6 @@
-# Example app with next-sass
+# Tokhimo-Review
 
-This example demonstrates how to use Next.js' built-in Global Sass/Scss imports and Component-Level Sass/Scss modules support.
+Tokhimo-Reviewuse  using Next.js' built-in Global Sass/Scss 
 
 ## Preview
 
